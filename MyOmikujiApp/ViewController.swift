@@ -16,7 +16,7 @@ class ViewController: UIViewController {
         let results = [
         "やきとり大吉",
         "吉田",
-        "中吉",
+        "中本",
         "凶は明日を生きるため",
         "大凶なのは今だけ",
         "至高"]
