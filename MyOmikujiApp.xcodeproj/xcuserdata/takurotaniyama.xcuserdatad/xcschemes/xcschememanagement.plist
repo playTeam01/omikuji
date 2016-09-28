@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>SchemeUserState</key>
+	<dict>
+		<key>MyOmikujiApp.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>0</integer>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>54B9601A1D97E2F7007B34B8</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>54B9602E1D97E2F8007B34B8</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>54B960391D97E2F8007B34B8</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+	</dict>
+</dict>
+</plist>

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="15G31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="MyOmikujiApp" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="????" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XLM-Lq-JqM" userLabel="大吉">
+                                <rect key="frame" x="237" y="261" width="126" height="77"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="64"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YTI-HA-Leh">
+                                <rect key="frame" x="263" y="388" width="75" height="30"/>
+                                <state key="normal" title="運勢を占う"/>
+                                <connections>
+                                    <action selector="getOmikuji:" destination="BYZ-38-t0r" eventType="touchUpInside" id="aCG-yU-bZo"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="あなたの運勢は..." textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="alI-Kj-kHp">
+                                <rect key="frame" x="234" y="190" width="133" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="YTI-HA-Leh" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Lyg-Zs-WhJ"/>
+                            <constraint firstItem="alI-Kj-kHp" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="MWF-rA-76J"/>
+                            <constraint firstItem="XLM-Lq-JqM" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="QqZ-aT-s3u"/>
+                            <constraint firstItem="XLM-Lq-JqM" firstAttribute="top" secondItem="alI-Kj-kHp" secondAttribute="bottom" constant="50" id="f4s-Xw-HQf"/>
+                            <constraint firstItem="YTI-HA-Leh" firstAttribute="top" secondItem="XLM-Lq-JqM" secondAttribute="bottom" constant="50" id="kqM-F8-EwH"/>
+                            <constraint firstItem="XLM-Lq-JqM" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="mq5-NK-hKq"/>
+                            <constraint firstItem="alI-Kj-kHp" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="vhP-lK-7UA"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="myLabel" destination="XLM-Lq-JqM" id="uS7-aW-gdl"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="140" y="214"/>
+        </scene>
+    </scenes>
+</document>
